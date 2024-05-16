@@ -60,11 +60,11 @@ header {
 }
 
 .cabecera h1 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .cabecera p {
-    font-size: 16px;
+    font-size: 18px;
     margin: 35px;
 }
 
@@ -73,4 +73,34 @@ footer {
     color: white;
     background-color: var(--azul);
     text-align: center;
+}
+
+.boletin {
+    background-color: var(--bg);
+    color: white;
+    padding: 26px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.boletin span {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.boletin-input {
+    padding: 10px;
+    border-radius: 0px;
+}
+
+input.boletin-input[type="email"] {
+    border: 2px solid #808080;
+}
+
+input.boletin-input[type="submit"] {
+    border: none;
+    background-color: #e8491d;
+    color: white;
+    padding: 14px;
 }
