@@ -1,6 +1,7 @@
 *:root {
     --bg: #24282b;
     --azul: #158fd8;
+    --grey: #35424a;
 }
 
 * {
@@ -14,9 +15,11 @@ header ul {
     display: flex;
 }
 
-li {
+li a {
     margin-left: 20px;
     margin-right: 20px;
+    text-decoration: none;
+    color: white;
 }
 
 .logo span {
@@ -86,7 +89,7 @@ footer {
 
 .boletin span {
     font-weight: bold;
-    font-size: 17px;
+    font-size: 30px;
 }
 
 .boletin-input {
@@ -103,4 +106,90 @@ input.boletin-input[type="submit"] {
     background-color: #e8491d;
     color: white;
     padding: 14px;
+}
+
+.especialidades {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.especialidad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    text-align: center;
+}
+
+.especialidad * {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 24px;
+}
+
+.contenido {
+    width: 50%;
+}
+
+.contenido * {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+.contenido h1 {
+    margin-bottom: 22px;
+}
+
+.contenido p {
+    font-size: 18px;
+    margin-top: 24px;
+    margin-bottom: 18px;
+}
+
+.contenido img {
+    width: 100%;
+}
+
+.contenedor {
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+aside {
+    width: 20%;
+    color: white;
+    height: fit-content;
+}
+
+aside div {
+    background-color: var(--grey);
+    padding: 16px;
+}
+
+aside div * {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+aside img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: -webkit-fill-available;
+}
+
+.greytext {
+    background-color: var(--grey);
+    color: white;
+    padding: 16px;
+}
+
+.producto {
+    padding: 20px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    background-color: #e6e6e6;
+    border: 1px solid #cccccc;
 }
